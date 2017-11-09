@@ -5,7 +5,7 @@ from mysql.connector import errorcode
 
 wb = WB()
 
-def connectToDatabase(hostUrl, databaseName, username, newPassword):
+def connectToMySQLDatabase(hostUrl, databaseName, username, newPassword):
 	print("Let's connect to a database.")
 	try:
 		myConnection = connection.MySQLConnection(user = username, password = newPassword, 
@@ -17,7 +17,5 @@ def connectToDatabase(hostUrl, databaseName, username, newPassword):
 	print("Well let's keep going!")
 
 
-def main():
-	return 0
-
-connectToDatabase('a', 'b', 'c', 'd')
+# 
+connectToMySQLDatabase('a', 'b', 'c', 'd')
