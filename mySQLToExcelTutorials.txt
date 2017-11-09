@@ -1,0 +1,7 @@
+######################################################################
+		mySQL to Excel 
+######################################################################
+
+Although Excel has very good connection tools to different types of databases, here is an approach in Python.
+
+#1 - Install mysql-connector 
